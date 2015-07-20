@@ -1,7 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: arjo
- * Date: 7/20/2015
- * Time: 8:14 PM
- */
+@section('style')
+    <link href="{{ URL::to('assets/css/test.css') }}" rel="stylesheet" media="screen">
+@show

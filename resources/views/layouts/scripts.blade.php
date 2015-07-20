@@ -1,7 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: arjo
- * Date: 7/20/2015
- * Time: 8:14 PM
- */
+@section('scripts')
+
+    <script src="{{ URL::to('/assets/js/bootstrap.min.js') }}"></script>
+
+
+
+
+@show
